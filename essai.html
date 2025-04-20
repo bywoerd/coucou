@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tu es la plus belle</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      flex-direction: column;
+    }
+    h1 {
+      color: #ff3399;
+      font-size: 3em;
+      text-align: center;
+    }
+    .hearts {
+      font-size: 2em;
+      color: #ff66a3;
+      animation: float 2s infinite;
+    }
+    @keyframes float {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="hearts">❤️💖💕💗💓💘💞💝❤️</div>
+  <h1>Tu es la plus belle</h1>
+  <div class="hearts">💝💞💘💓💗💕💖❤️💘</div>
+</body>
+</html>
